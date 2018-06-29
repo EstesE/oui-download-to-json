@@ -13,6 +13,11 @@ let address = {
   line3: ''
 };
 
+json["updated"] = [
+  { 
+    "epoch": new Date().getTime()
+  }
+];
 json[cleanName] = [];
 
 function processFile() {
