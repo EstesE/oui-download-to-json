@@ -6,4 +6,4 @@ branches:
   only:
   - master
 install:
-  - npm install
+  - yarn

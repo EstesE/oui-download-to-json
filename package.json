@@ -2,7 +2,9 @@
   "name": "oui-download-to-json",
   "version": "0.0.0",
   "private": false,
-  "scripts": {},
+  "scripts": {
+    "test": "scripts/test"
+  },
   "dependencies": {
     "fs": "^0.0.1-security",
     "https": "^1.0.0"
